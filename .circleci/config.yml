@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    shell: true
     steps:
       - checkout
       - run: scvis -h
